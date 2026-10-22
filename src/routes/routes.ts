@@ -9,7 +9,7 @@ const router = Router();
 router.get("/health", (_req, res) =>
   res.status(200).json({
     status: "ok",
-    message: "Deployed with GitHub Actions",
+    message: "Deployed with Watchtower",
   })
 );
 router.use("/auth", authRoutes);
